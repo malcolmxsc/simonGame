@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="text">
+                <h1>Simon Game</h1>
+                <p>
+                    Welcome to simon, repeat the pattern by pressing the buttons.
+                </p>
+            </div>
+            <div class ="start-button">
+                <input type ="submit" value="Start" id="start-btn" onclick="startGame()">
+                <input type ="submit" value="Stop" id="stop-btn" onclick="stopGame()">
+            </div>
+            <div class ="color-icons">
+                <button id="color1" onclick="pattern(1)" onmousedown="pickColor(1)"></button>
+                <button id="color2" onclick="pattern(2)" onmousedown="pickColor(2)"></button>
+                <button id="color3" onclick="pattern(3)" onmousedown="pickColor(3)"></button>
+                <button id="color4" onclick="pattern(4)" onmousedown="pickColor(4)"></button>
+            </div>
+
+        </div>
+
+
+
+    </main>
+    
+</body>
+</html>

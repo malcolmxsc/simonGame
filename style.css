@@ -1,0 +1,41 @@
+
+.color-icons {
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 185px 185px;
+    grid-gap: 50px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 40%;
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 185px 185px;
+    grid-gap: 50px;
+    position: relative;
+    margin-top: 175px;
+    margin-left: 40%;
+
+}
+
+#color1 {
+    background-color: #f25022;
+    
+}
+
+#color2 {
+    background: blue;
+}
+
+#color3 {
+    background: green;
+}
+
+#color4 {
+    background: yellow;
+}
+
+
