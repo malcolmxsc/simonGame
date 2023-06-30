@@ -1,0 +1,1 @@
+Hello welcome to the simon Game. The instructions are simple, follow the color patterns in the order they are displayed, your score will be displayed at the end of the game.
