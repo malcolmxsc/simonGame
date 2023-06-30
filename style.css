@@ -10,6 +10,10 @@
 
 }
 
+.hidden {
+    display: none;
+  }
+
 .container {
     display: grid;
     grid-template-rows: 180px 180px;
@@ -21,21 +25,38 @@
 
 }
 
-#color1 {
-    background-color: #f25022;
+#color0 {
+    background-color: red;
     
 }
 
-#color2 {
+#color0:active, #color0.light {
+    background:#FFCCCB;
+}
+
+#color1 {
     background: blue;
 }
 
-#color3 {
+#color1:active, #color1.light {
+    background: lightblue;
+}
+
+
+#color2 {
     background: green;
 }
 
-#color4 {
-    background: yellow;
+#color2:active, #color2.light {
+    background: lightgreen;
 }
 
+
+#color3 {
+    background: #8B8000;
+}
+
+#color3:active, #color3.light {
+    background: yellow;
+}
 

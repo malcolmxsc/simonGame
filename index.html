@@ -9,22 +9,25 @@
 </head>
 <body>
     <main>
+        <h2 id="score">Score: </h2>
         <div class="container">
             <div class="text">
                 <h1>Simon Game</h1>
                 <p>
-                    Welcome to simon, repeat the pattern by pressing the buttons.
+                    Welcome to simon, repeat the pattern in the order you are shown.
                 </p>
+                <h2 id ="message" class="hidden"></h2>
             </div>
             <div class ="start-button">
-                <input type ="submit" value="Start" id="start-btn" onclick="startGame()">
-                <input type ="submit" value="Stop" id="stop-btn" onclick="stopGame()">
+                <button id = "start-btn" onclick="startGame()">Start</button>
+                <button id = "stop-btn" class="hidden" onclick="stopGame()">Stop</button>
             </div>
+            
             <div class ="color-icons">
-                <button id="color1" onclick="pattern(1)" onmousedown="pickColor(1)"></button>
-                <button id="color2" onclick="pattern(2)" onmousedown="pickColor(2)"></button>
-                <button id="color3" onclick="pattern(3)" onmousedown="pickColor(3)"></button>
-                <button id="color4" onclick="pattern(4)" onmousedown="pickColor(4)"></button>
+                <button id="color0" onclick="guessColor(0)"></button>
+                <button id="color1" onclick="guessColor(1)"></button>
+                <button id="color2" onclick="guessColor(2)"></button>
+                <button id="color3" onclick="guessColor(3)"></button>
             </div>
 
         </div>
